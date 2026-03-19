@@ -4,6 +4,12 @@
 
 `yay -S sudo zsh zsh-completions fastfetch visual-studio-code-bin font-manager`
 
+## Fonts
+
+Create symlink from `~/fonts/xxx`.
+
+`ln -s ~/fonts/Iosevka ~/.local/share/fonts`
+
 ### DE
 
 `yay -S sway swaybg swaylock swayidle waybar sway-launcher-desktop waybar`

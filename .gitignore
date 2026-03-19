@@ -17,6 +17,8 @@ projects
 .config/chromium
 .config/Code
 .config/dconf
+.config/font-manager
+.config/fontconfig
 .config/go
 .config/htop
 .config/Thunar
@@ -26,4 +28,3 @@ projects
 .gnupg
 
 .icons/*/*
- 
