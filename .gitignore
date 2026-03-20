@@ -1,18 +1,17 @@
 !.gitkeep
 
+.bash_history
+
 # folders
 .cache
 .dotnet
+.gnupg
 .local
 .pki
 .ssh
 .vscode
 
-Downloads
-fonts
-packages
-projects
-.bash_history
+.icons/*/*
 
 .config/chromium
 .config/Code
@@ -25,6 +24,7 @@ projects
 .config/xfce4/xfconf
 .config/yay
 
-.gnupg
-
-.icons/*/*
+downloads
+fonts
+packages
+projects

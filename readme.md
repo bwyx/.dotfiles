@@ -2,13 +2,23 @@
 
 ## shshshshshshsh code
 
-`yay -S sudo zsh zsh-completions fastfetch visual-studio-code-bin font-manager`
+`yay -S sudo zsh zsh-completions fastfetch visual-studio-code-bin font-manager ttf-apple-emoji`
+
+### VSCode Setting
+
+`ln -s ~/.config/vscode.json ~/.config/Code/User/settings.json`
 
 ## Fonts
 
 Create symlink from `~/fonts/xxx`.
 
 `ln -s ~/fonts/Iosevka ~/.local/share/fonts`
+
+### Apple Emoji
+
+Download .ttf : <https://github.com/samuelngs/apple-emoji-ttf/releases>
+
+`ln -s ~/fonts/AppleEmoji ~/.local/share/fonts`
 
 ### DE
 
