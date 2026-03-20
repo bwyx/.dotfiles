@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'Iosevka Term Curly', 'Apple Color Emoji', monospace",
+    "editor.fontFamily": "'Iosevka Term Curly', 'Apple Color Emoji', 'Font Awesome 5 Pro', monospace",
     "workbench.colorTheme": "Gruvbox Material Dark",
     "workbench.iconTheme": "gruvbox-material-icon-theme",
     "workbench.activityBar.location": "hidden",
