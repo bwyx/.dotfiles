@@ -4,6 +4,7 @@
 
 # folders
 .cache
+.copilot
 .dotnet
 .gnupg
 .local
