@@ -2,7 +2,7 @@
 
 ## shshshshshshsh code
 
-`yay -S sudo zsh zsh-completions fastfetch visual-studio-code-bin font-manager ttf-apple-emoji`
+`yay -S sudo zsh zsh-completions fastfetch visual-studio-code-bin font-manager nwg-look`
 
 ### VSCode Setting
 

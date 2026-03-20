@@ -10,6 +10,7 @@
 .pki
 .ssh
 .vscode
+.wine
 
 .icons/*/*
 
