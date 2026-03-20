@@ -21,6 +21,7 @@
 .config/fontconfig
 .config/go
 .config/htop
+.config/menus
 .config/Thunar
 .config/xfce4/xfconf
 .config/yay
