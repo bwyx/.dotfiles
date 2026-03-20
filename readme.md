@@ -36,10 +36,11 @@ Create symlink from `~/fonts/xxx`.
 
 `ln -s ~/fonts/Iosevka ~/.local/share/fonts`
 
+Set GTK fonts
+`gsettings set org.gnome.desktop.interface font-name "Iosevka Term Curly, 9"`
+
 ### Apple Emoji
 
 Download .ttf : <https://github.com/samuelngs/apple-emoji-ttf/releases>
 
 `ln -s ~/fonts/AppleEmoji ~/.local/share/fonts`
-
-
