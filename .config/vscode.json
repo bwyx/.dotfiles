@@ -3,5 +3,9 @@
     "workbench.colorTheme": "Gruvbox Material Dark",
     "workbench.iconTheme": "gruvbox-material-icon-theme",
     "workbench.activityBar.location": "hidden",
-    "window.titleBarStyle": "native"
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "toggle",
+    "workbench.browser.showInTitleBar": true,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false
 }
