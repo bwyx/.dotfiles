@@ -1,12 +1,34 @@
 # install yay!!@!#w
 
-## shshshshshshsh code
+## authorization & keyring
 
-`yay -S sudo zsh zsh-completions fastfetch visual-studio-code-bin font-manager nwg-look`
+`yay -S sudo gnome-keyring`
+
+## shboom
+
+`yay -S zsh zsh-completions fastfetch`
+
+### DE
+
+`yay -S sway swaybg swaylock swayidle waybar sway-launcher-desktop waybar nwg-look font-manager`
+
+## code
+
+`yay -S visual-studio-code-bin`
 
 ### VSCode Setting
 
 `ln -s ~/.config/vscode.json ~/.config/Code/User/settings.json`
+
+### GTK
+
+Theme : <https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme>
+
+`yay -S gtk-engine-murrine`
+
+### Thunar
+
+`yay -S thunar tumbler thunar-volman thunar-archive-plugin gvfs gvfs-smb sshfs catfish file-roller`
 
 ## Fonts
 
@@ -20,22 +42,4 @@ Download .ttf : <https://github.com/samuelngs/apple-emoji-ttf/releases>
 
 `ln -s ~/fonts/AppleEmoji ~/.local/share/fonts`
 
-### DE
 
-`yay -S sway swaybg swaylock swayidle waybar sway-launcher-desktop waybar`
-
-### Thunar
-
-`yay -S thunar tumbler thunar-volman thunar-archive-plugin gvfs gvfs-smb sshfs catfish file-roller`
-
-#### Thunar Theme
-
-Papyrus :   <https://www.gnome-look.org/p/1166289/>
-
-`.icons/papirus-icon-theme-green-folders.tar.xz`
-
-### Spotify
-
-`yay -S spotify spicetify-cli`
-
-#### Spotify Theme
