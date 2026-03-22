@@ -1,0 +1,58 @@
+# Colors (Gruvbox Material Medium Dark)
+
+# Default colors
+[colors.primary]
+background = '#282828'
+foreground = '#d4be98'
+
+# Normal colors
+[colors.normal]
+black   = '#3c3836'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
+
+# Bright colors (same as normal colors)
+[colors.bright]
+black   = '#3c3836'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
+
+[window]
+opacity = 0.85
+
+[window.padding]
+x   = 16
+y   = 16
+
+[window.dimensions]
+columns = 80
+lines   = 24
+
+[font]
+size    = 10.0
+
+[font.normal]
+family  = 'Iosevka Term Curly'
+style   = 'Regular'
+
+[font.bold]
+family  = 'Iosevka Term Curly'
+style   = 'Bold'
+
+[font.italic]
+family  = 'Iosevka Term Curly'
+style   = 'Medium Italic'
+
+[cursor]
+style   = 'Underline'
+unfocused_hollow    = false
