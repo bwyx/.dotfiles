@@ -1,6 +1,7 @@
 !.gitkeep
 
 .bash_history
+.zsh_history
 
 # folders
 .cache
@@ -8,6 +9,9 @@
 .dotnet
 .gnupg
 .local
+.npm
+.nvm
+.oh-my-zsh
 .pki
 .ssh
 .vscode
@@ -23,12 +27,14 @@
 .config/go
 .config/htop
 .config/menus
+.config/pulse
+.config/spotify
 .config/Thunar
 .config/xfce4/xfconf
 .config/yay
 
-downloads
-fonts
-packages
-projects
-themes
+downloads/**
+fonts/**
+packages/**
+projects/**
+themes/**

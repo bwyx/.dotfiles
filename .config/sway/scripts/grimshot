@@ -91,7 +91,7 @@ parseArgs() {
   if [ -n "$GRIMSHOT_FILENAME_FORMAT" ]; then
     FILENAME=$GRIMSHOT_FILENAME_FORMAT
   else
-    FILENAME=$(date -Ins)
+    FILENAME=captured_$(date -Ins)
   fi
   FILE=${3:-$(getTargetDirectory)/$FILENAME.png}
 
