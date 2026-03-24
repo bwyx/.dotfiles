@@ -20,9 +20,9 @@ if ! pkill -INT -P "$(pgrep -xo record)" wf-recorder 2>/dev/null; then
         FILE=$(getTargetDirectory)/recording_$(date -Ins).mp4
 
         pkill -USR1 -x recordd
-        dunstify -h string:x-dunst-stack-tag:record "🎥 Recording Started"
+        notify-send -h string:x-dunst-stack-tag:record "🎥 Recording Started"
         wf-recorder -f $FILE -g "$geometry"
         pkill -USR2 -x recordd
-        dunstify -h string:x-dunst-stack-tag:record "💾 $FILE"
+        notify-send -h string:x-dunst-stack-tag:record "💾 $FILE"
     fi
 fi

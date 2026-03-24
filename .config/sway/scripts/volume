@@ -1,13 +1,13 @@
 case $1 in
-    increase)
+    +)
         emoji="🔊"
-        wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+;;
-    decrease)
+        wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%+;;
+    -)
         emoji="🔈"
-        wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-;;
+        wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-;;
 esac
 
 VOL=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
 VAL=${VOL:10}
 
-dunstify -a "brightness" -t 1500 -h string:x-dunst-stack-tag:brightness -h int:value:"$VAL" "Volume $emoji"
+notify-send -a "brightness" -t 1500 -h string:x-dunst-stack-tag:brightness-volume -h int:value:"$VAL" "Volume $emoji"

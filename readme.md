@@ -10,7 +10,7 @@
 
 ### DE
 
-`yay -S sway swaybg swaylock swayidle waybar sway-launcher-desktop waybar nwg-look font-manager`
+`yay -S sway swaybg swaylock swayidle waybar sway-launcher-desktop waybar mako nwg-look font-manager`
 
 ## code
 
@@ -48,3 +48,7 @@ Download .ttf : <https://github.com/samuelngs/apple-emoji-ttf/releases>
 #### Utilities
 
 `yay -S wget`
+
+#### Screenshots & Screen Record
+
+`yay -S grim slurp wl-clipboard jq wf-recorder`
