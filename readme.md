@@ -6,11 +6,11 @@
 
 ## shboom
 
-`yay -S zsh zsh-completions fastfetch`
+`yay -S alacritty zsh zsh-completions fastfetch`
 
 ### DE
 
-`yay -S sway swaybg swaylock swayidle waybar sway-launcher-desktop waybar mako nwg-look font-manager`
+`yay -S sway swaybg swaylock swayidle waybar sway-launcher-desktop mako nwg-look font-manager`
 
 ## code
 
