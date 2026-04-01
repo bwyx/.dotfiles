@@ -6,7 +6,7 @@
 
 ## shboom
 
-`yay -S alacritty zsh zsh-completions fastfetch`
+`yay -S zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions fastfetch`
 
 ### DE
 
