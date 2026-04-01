@@ -2,7 +2,7 @@
 
 ## authorization & keyring
 
-`yay -S sudo gnome-keyring`
+`yay -S sudo seahorse`
 
 ## shboom
 
@@ -52,3 +52,9 @@ Download .ttf : <https://github.com/samuelngs/apple-emoji-ttf/releases>
 #### Screenshots & Screen Record
 
 `yay -S grim slurp wl-clipboard jq wf-recorder`
+
+### Sound System
+
+`https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-Arch-Linux`
+
+`yay -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber cable`
