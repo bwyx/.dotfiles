@@ -8,6 +8,7 @@
 .copilot
 .dotnet
 .gnupg
+.histfile
 .local
 .npm
 .nvm
@@ -16,6 +17,7 @@
 .ssh
 .vscode
 .wine
+.zcompdump
 
 .icons/*/*
 
@@ -26,6 +28,7 @@
 .config/fontconfig
 .config/go
 .config/htop
+.config/Insomnia
 .config/menus
 .config/pulse
 .config/spotify
@@ -38,6 +41,7 @@ fonts/**
 packages/**
 projects/**
 themes/**
+videos/**
 
 downloads
 go

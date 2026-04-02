@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Cable
+Exec=pw-jack cable --minimized
+Icon=jack-plug
+Terminal=false
+X-GNOME-Autostart-enabled=true

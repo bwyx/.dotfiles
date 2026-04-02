@@ -84,7 +84,7 @@
         "phone": "",
         "portable": "",
         "car": "",
-        "default": ["", "", "", ""]
+        "default": ["", "", ""]
       },
       "scroll-step": 1,
       "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
@@ -94,7 +94,7 @@
       // "format": "{player} {player_icon}, {status} {status_icon}; {artist}; {album}; {title}; {length} <i>{dynamic}</i>",
       "format": "{status_icon} <i>{artist} - {title}</i>  ",
       // "format-paused": "{status_icon} <i>{dynamic}</i>",
-      "max-length": 10,
+      "max-length": 100,
       "player-icons": {
         "default": "▶",
         "chromium": "",
