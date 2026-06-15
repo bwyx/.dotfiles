@@ -117,6 +117,7 @@
   {
     "output": "!eDP-1",
     "layer": "top",
+    "position": "bottom",
     "modules-left": ["sway/workspaces"],
     "sway/workspaces": {
       "disable-scroll": true,
