@@ -8,6 +8,8 @@
 
 `yay -S zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions fastfetch`
 
+<https://dev.to/zeromeroz/setting-up-zsh-and-oh-my-zhs-with-autocomplete-plugins-1nml>
+
 ### DE
 
 `yay -S sway swaybg swaylock swayidle waybar sway-launcher-desktop mako nwg-look font-manager`
