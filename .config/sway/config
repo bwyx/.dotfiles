@@ -23,7 +23,6 @@ for_window [app_id="^chrome-.*"] shortcuts_inhibitor disable
 for_window [app_id="^launcher$"] floating enable, sticky enable, resize set 20 ppt 40 ppt
 
 # exec wl-paste -t text --watch clipman store --no-persist
-exec_always gsettings set org.gnome.desktop.interface font-name "Iosevka Term Curly 9"
 
 include ./config.d/*
 include /etc/sway/config.d/*
