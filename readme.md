@@ -24,9 +24,7 @@
 
 ### GTK
 
-Theme : <https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme>
-
-`yay -S gtk-engine-murrine`
+Theme : <https://github.com/TheGreatMcPain/gruvbox-material-gtk>
 
 ### Thunar
 
@@ -59,4 +57,4 @@ Download .ttf : <https://github.com/samuelngs/apple-emoji-ttf/releases>
 
 `https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-Arch-Linux`
 
-`yay -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber cable`
+`yay -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber pavucontrol`
