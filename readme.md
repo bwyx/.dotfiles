@@ -58,3 +58,9 @@ Download .ttf : <https://github.com/samuelngs/apple-emoji-ttf/releases>
 `https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-Arch-Linux`
 
 `yay -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber pavucontrol`
+
+### Screen Sharing
+
+<https://github.com/emersion/xdg-desktop-portal-wlr/blob/master/README.md>
+
+`sudo pacman -S xdg-desktop-portal-wlr`
