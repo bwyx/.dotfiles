@@ -19,8 +19,6 @@
 .wine
 .zcompdump
 
-.icons/*/*
-
 .config/chromium
 .config/Code
 .config/dconf
